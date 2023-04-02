@@ -72,8 +72,8 @@ def print20_(): # Beautification
 
 def play_game(usr, cmptr, current_round):
 
-	if (current_round == 4) or usr.points == 2 or cmptr.points == 2: # Max Rounds = 3, so at 2 points 
-		print("Game Over!")                                          # one of the players already won
+	if (current_round == 4) or usr.points == 2 or cmptr.points == 2: # Max Rounds = 3, so at 2 points, one of the players already won
+		print("Game Over!")
 		print20_()
 		winner(usr, cmptr) # Funcition definition at line 121
 		print20_()
