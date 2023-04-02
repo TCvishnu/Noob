@@ -136,8 +136,8 @@ def play_again(usr, cmptr):
 
 
 # -------------------------------------------------------------------------------------------
-user = User()
-computer = Computer()
+user = User() # Class def at line 27
+computer = Computer() # Class def at line 50
 round_num = 1
 
 
