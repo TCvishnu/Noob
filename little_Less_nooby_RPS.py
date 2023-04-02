@@ -129,6 +129,7 @@ def winner(usr, cmptr): # To check who won User or Computer
 
 
 def play_again(usr, cmptr):
+	# New Game, so scores back to 0
 	usr.points = 0
 	cmptr.points = 0
 	play_game(usr, cmptr, round_num)
