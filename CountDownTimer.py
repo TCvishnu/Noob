@@ -3,7 +3,7 @@ import tkinter as t
 window = t.Tk()
 input_frame = t.Frame(window)
 countdown_frame = t.Frame(window)
-window.title("CountDown Timer Window")
+window.title("CountDown Timer")
 window.geometry("400x150")
 
 
